@@ -1,0 +1,8 @@
+CREATE DATABASE prueba;
+
+USE prueba;
+
+CREATE TABLE buscador(
+  codigo INT(11) PRIMARY KEY AUTO_INCREMENT,
+  canciones VARCHAR(50) NOT NULL
+);
